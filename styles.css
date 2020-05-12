@@ -1,0 +1,150 @@
+  body {
+    margin: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+    text-align: center;
+    color: hsl(210, 10%, 33%);
+  }
+  p {
+    color: hsl(201, 11%, 66%);
+    line-height: 1.5;
+    font-size: 1.25rem;
+  }
+  ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  img {
+    max-width: 100%;
+  }
+  a {
+    text-decoration: none;
+  }
+  footer a:hover,
+  footer a:active,
+  footer a:focus {
+    color: hsl(171, 66%, 44%);
+  }
+  .button {
+    color: white;
+    display: block;
+    border-radius: 50px;
+    background-color: hsl(233, 100%, 69%);
+    padding: 1rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 3px 0 0 hsl(233, 100%, 59%), 0 5px 10px 0 hsla(233, 100%, 69%, 70%);
+  }
+  .button.primary {
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0 3px 0 0 hsl(171, 66%, 34%), 0 5px 10px 0 hsla(171, 66%, 34%, 70%);
+  }
+  header, main, aside, footer {
+    padding: 0 2rem;
+  }
+  footer {
+    padding: 2rem;
+  }
+  main li {
+    margin: 4rem 0;
+  }
+  aside li {
+    margin: 2rem 0;
+  }
+  footer {
+    background-color: hsla(201, 11%, 66%, 10%);
+  }
+  footer ul a {
+    color:hsl(210, 10%, 33%);
+    font-size: 1.5rem;
+  }
+  footer img {
+    width: 50px;
+  }
+  header {
+    background: url('./images/bg-header-mobile.png') no-repeat top center;
+    background-size: cover;
+  }
+  header img {
+    margin-top: 4rem;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  .lead-in {
+    margin: 4rem 0;
+  }
+  .sitemap {
+    margin: 2rem 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  .sitemap li {
+    margin: 1rem 0;
+  }
+  .social-icons {
+    display: flex;
+    justify-content: center;
+  }
+  .social-icons a {
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
+  .attribution { text-align: center; }
+  .attribution a { color: hsl(171, 66%, 44%); }
+
+  @media only screen and (min-width: 968px) {
+    .lead-in {
+      max-width: 768px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    header {
+      background: url('./images/bg-header-desktop.png') no-repeat top center;
+      background-size: cover;
+    }
+    .button {
+      display: inline-block;
+      padding: 1rem 2rem;
+    }
+    .button:first-of-type {
+      margin-right: 1rem;
+    }
+    .col-group {
+      display: flex;
+    }
+    .col-group > * {
+      flex: 1;
+    }
+    .col-group > ul {
+      text-align: left;
+      margin-left: 10rem;
+    }
+    .multi-col-list {
+      display: flex;
+    }
+    .multi-col-list li {
+      flex: 1;
+      margin: 0 4rem;
+    }
+    footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    footer > * {
+      flex: 1;
+    }
+    .sitemap {
+      columns: 3;
+      margin: 0;
+      text-align: left;
+    }
+    .sitemap li {
+      margin-top: 0;
+    }
+  }
